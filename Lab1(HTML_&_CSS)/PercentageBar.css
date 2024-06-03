@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+main {
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    background-color: #F5F5F5;
+}
+
+section {
+    display: inline-block;
+}
+
+p {
+    padding-left: 25px;
+}
+
+article {
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+    background-color: white;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bar1 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 30%;
+    background-color: #CAC6C0;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    animation: barPlot1 2s;
+}
+
+@keyframes barPlot1 {
+    from {
+        height: 0%;
+        background-color: #CAC6C0;
+    }
+
+    to {
+        height: 30%;
+        background-color: #CAC6C0;
+    }
+}
+
+#bar2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #CAC6C0;
+    animation: barPlot2 2s;
+}
+
+@keyframes barPlot2 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 40%;
+    }
+}
+
+#bar3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    background-color: #CAC6C0;
+    animation: barPlot3 2s;
+}
+
+@keyframes barPlot3 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 80%;
+    }
+}

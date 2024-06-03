@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+video {
+    width: auto;
+    height: auto;
+    position: fixed;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+input {
+    margin: 4px;
+    height: 23px;
+    padding: 8px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input[type="reset"],
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    background-color: #a24bf4;
+    font-size: 18px;
+    color: white;
+    margin-right: 25px;
+    border-radius: 4px;
+}
+
+input:focus {
+    background-color: rgba(0, 128, 128, 0.35);
+    outline: none;
+    color: white;
+}
